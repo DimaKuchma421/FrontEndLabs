@@ -17,3 +17,6 @@
 - Р¤РѕСЂРјР° Р· `fieldset`, `legend`, `label`, `input`, `select`, `textarea`, `button`
 - Р—РѕР±СЂР°Р¶РµРЅРЅСЏ, Р°СѓРґС–Рѕ С‚Р° РІС–РґРµРѕ Р· `figure` С– `figcaption`
 
+
+## Перевірка
+Сайт містить сторінки index.html, about.html та contacts.html, а також зображення, аудіо і відео.
