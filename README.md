@@ -32,3 +32,6 @@ git commit -m "feat: add contact form"
 git commit -m "feat: add media files"
 git commit -m "docs: update readme"
 ```
+
+## Лабораторна робота 1
+Папка: Lab1. Робота містить HTML-сторінки портфоліо без CSS та JavaScript.
