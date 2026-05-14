@@ -6,17 +6,22 @@
 
 ## Сторінки
 
-- `index.html` — головна сторінка
-- `about.html` — інформація про студента, навички, таблиця
-- `contacts.html` — контакти та форма зворотного зв'язку
+- `index.html` — головна сторінка портфоліо.
+- `about.html` — інформація про студента, освіту, інтереси та навички.
+- `contacts.html` — контактна інформація та форма зворотного зв'язку.
 
 ## Що використано
 
-- Семантичні теги HTML5: `header`, `nav`, `main`, `section`, `article`, `aside`, `footer`
-- Таблиця з `caption`, `thead`, `tbody`, `th`, `tr`, `td`
-- Форма з `fieldset`, `legend`, `label`, `input`, `select`, `textarea`, `button`
-- Зображення, аудіо та відео з `figure` і `figcaption`
+- правильна структура HTML-документа;
+- семантичні теги `header`, `nav`, `main`, `section`, `article`, `aside`, `footer`;
+- навігаційне меню через `ul`, `li`, `a`;
+- таблиця з `caption`, `thead`, `tbody`, `th`, `tr`, `td`;
+- форма з `fieldset`, `legend`, `label`, `input`, `select`, `textarea`, `button`;
+- зображення з атрибутом `alt`;
+- аудіо та відео з `controls`;
+- файл `.gitignore`;
+- структура папок для медіафайлів.
 
+## Перевірка
 
-## ��������
-���� ������ ������� index.html, about.html �� contacts.html, � ����� ����������, ���� � ����.
+Сайт містить сторінки `index.html`, `about.html` та `contacts.html`, а також зображення, аудіо і відео.
