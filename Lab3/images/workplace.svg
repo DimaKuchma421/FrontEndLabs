@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Робоче місце студента</title>
+  <desc id="desc">Простий малюнок ноутбука та блокнота на столі.</desc>
+  <rect width="800" height="500" fill="#f4f4f4"/>
+  <rect x="120" y="120" width="360" height="220" rx="12" fill="#ffffff" stroke="#333333" stroke-width="6"/>
+  <rect x="150" y="150" width="300" height="150" fill="#dfefff"/>
+  <rect x="90" y="350" width="420" height="28" rx="8" fill="#333333"/>
+  <rect x="560" y="130" width="140" height="220" rx="10" fill="#ffffff" stroke="#333333" stroke-width="5"/>
+  <line x1="585" y1="180" x2="675" y2="180" stroke="#777777" stroke-width="5"/>
+  <line x1="585" y1="220" x2="675" y2="220" stroke="#777777" stroke-width="5"/>
+  <line x1="585" y1="260" x2="650" y2="260" stroke="#777777" stroke-width="5"/>
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#333333">HTML-портфоліо</text>
+</svg>
