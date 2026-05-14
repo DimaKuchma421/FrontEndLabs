@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Лабораторна робота 5</h1>
+        <p class="student">Дмитро Кучмамбетов, 136 група</p>
+        <p>Task Manager з використанням DOM, подій та Fetch API.</p>
+
+        <section class="task-app">
+            <h2>Список завдань</h2>
+
+            <div class="user-info" id="userInfo">Користувач: завантажується...</div>
+            <div class="message" id="message"></div>
+
+            <form class="task-form" id="taskForm">
+                <input type="text" id="taskInput" placeholder="Нове завдання" autocomplete="off">
+                <button type="submit" id="addBtn" disabled>Додати</button>
+            </form>
+
+            <input type="text" class="search-input" id="searchInput" placeholder="Пошук завдань">
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Всі</button>
+                <button class="filter-btn" data-filter="active">Активні</button>
+                <button class="filter-btn" data-filter="completed">Виконані</button>
+            </div>
+
+            <p class="counter" id="counter">Активних завдань: 0</p>
+            <p class="loader hidden" id="loader">Завантаження...</p>
+
+            <ul class="task-list" id="taskList"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
