@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eeeeee;
+  color: #222222;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.header h1 {
+  margin: 0 0 6px;
+}
+
+.header p {
+  margin: 0;
+  color: #666666;
+}
+
+.header input {
+  width: 260px;
+  padding: 8px;
+  border: 1px solid #aaaaaa;
+}
+
+.section {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.filters,
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filters label {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.form input,
+.form select,
+.filters select {
+  padding: 8px;
+  border: 1px solid #aaaaaa;
+}
+
+.form button,
+.card button {
+  padding: 8px 12px;
+  border: 1px solid #777777;
+  background: #dddddd;
+}
+
+.form button:hover,
+.card button:hover {
+  background: #cccccc;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #cccccc;
+  padding: 12px;
+  background: #f8f8f8;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 6px 0;
+}
+
+.error {
+  color: #b00020;
+}
+
+.empty {
+  color: #666666;
+}
+
+@media (max-width: 650px) {
+  .header {
+    display: block;
+  }
+
+  .header input {
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .form input,
+  .form select,
+  .form button {
+    width: 100%;
+  }
+}
